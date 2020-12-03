@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# Assignment 07
+*JMMoore, 12.2.2020*
+ 
+## Introduction 
+This assignment will over the different types of user-defined functions within SQL and when a user would utilize those functions.
 
-You can use the [editor on GitHub](https://github.com/JeanneMMoore/DBFoundations-Module07/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### SQL User-defined Functions
+SQL user-defined functions (UDFs) are functions created within SQL by the user to solve complex queries for specific multi-use function rather than using the SQL generated functions.
+UDFs will either yield a single value (Scalar functions) or a table value (Multi-statement functions). 
+Users would use UDFs when they want to simplify code by using a stored, query specific function. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Scalar, Inline, Multi-Statement Functions
+User-defined Scalar functions allow you to take one to two parameters and return a single value.
+User-defined Inline functions are similar to view functions in that it produces a table, but you are only able to use "select" functions with this UDF.
+Multi-statement function is similar to an inline function as it produces a table, but it is far more flexible with the functions used in executing this UDF. 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JeanneMMoore/DBFoundations-Module07/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Conclusion
+There are numerous benefits to using UDF in code: simplifying the queries within your source code and allowing for quicker function utilization across multiple DBs. 
