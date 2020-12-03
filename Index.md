@@ -1,7 +1,7 @@
 # Assignment 07
 *JMMoore, 12.2.2020*
  
-### SQL User-definted Functions
+### SQL User-defined Functions
 SQL user-defined functions (UDFs) are functions created within SQL by the user to solve complex queries for specific multi-use functiosn rather than using the SQL generated functions.
 UDFs will either yield a single value (Scalar functions) or a table value (Multi-statement functions). 
 Users would use UDFs when they are want to simplify code by using a stored, query specific function. 
